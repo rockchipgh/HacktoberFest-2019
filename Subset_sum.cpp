@@ -13,7 +13,7 @@ void printSubset(int A[], int size)
 		printf("%*d", 5, A[i]); 
 	} 
 
-	printf("n"); 
+	printf("\n"); 
 } 
 
 // qsort compare function 
@@ -107,7 +107,7 @@ int main()
 
 	generateSubsets(weights, size, target); 
 
-	printf("Nodes generated %dn", total_nodes); 
+	printf("Nodes generated %d\n", total_nodes); 
 
 	return 0; 
 } 
